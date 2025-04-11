@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- For importing icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <!-- Nabvigation bar -->
+    <header class="bg-gray-100 shadow-lg">
+      <div class="container mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-yellow-500">Hammad's Portfolio</h1>
+        <nav>
+          <ul class="flex space-x-6 text-gray-800">
+            <li>
+              <a href="home.html" class="hover:text-gray-600"
+                >Personal Profile</a
+              >
+            </li>
+            <li>
+              <a href="projects.html" class="hover:text-gray-600">Projects</a>
+            </li>
+            <li>
+              <a href="career.html" class="hover:text-gray-600">Career Goals</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="hover:text-gray-600"
+                >Gallery Page</a
+              >
+            </li>
+            <li>
+              <a href="skills.html" class="hover:text-gray-600"
+                >Skills & Interests</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="hover:text-gray-600">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- nav end -->
+
+    <!-- Gallery Section -->
+    <section class="py-20 bg-gray-100" id="gallery">
+      <div
+        class="text-center mb-12 rounded-full bg-gray-800 p-6 mx-auto max-w-lg"
+      >
+        <h2 class="text-4xl font-bold text-white">Gallery</h2>
+      </div>
+
+      <!-- Grid Layout for Images -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      >
+        <!-- Image 1 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/mobile app.jpg"
+            alt="Online banking app UI design"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">Easy Pay (Banking App)</p>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/Interactive design.png"
+            alt="Interactive website design"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">NGC Website Replica</p>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/pharmacy.jpg"
+            alt="Pharmacy management system UI design"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">
+              Pharmacy Management System
+            </p>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/Chess.png"
+            alt="Chess game built with C++"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">Chess Game (C++)</p>
+          </div>
+        </div>
+
+        <!-- Image 5 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/Dashboard.png"
+            alt="Hospital management system UI design"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">
+              Hospital Management System
+            </p>
+          </div>
+        </div>
+
+        <!-- Image 6 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/Hotel.png"
+            alt="Hotel management website"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">
+              Hotel Management Website
+            </p>
+          </div>
+        </div>
+
+        <!-- Image 7 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/EdgeLedger.png"
+            alt="Finance management website"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">EdgeLedger Finance</p>
+          </div>
+        </div>
+
+        <!-- Image 8 -->
+        <div
+          class="relative group transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="images/Todolist.jpg"
+            alt="To-do list app built with Kotlin"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white text-lg text-center">To-Do List App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
